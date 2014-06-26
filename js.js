@@ -8,7 +8,7 @@ function onDeviceReady() {
 }
 
 function ff() {
-     sms.send(89169228588, "test", , Success, Error);
+     sms.send("+79169228588", "test", , Success, Error);
   //  window.plugins.EmailComposer.showEmailComposerWithCallback(Success,"Look at this photo","Take a look at <b>this<b/>:",["deco-bots@ya.ru"],[],[],true,[]);
 }
 
