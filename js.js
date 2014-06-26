@@ -8,13 +8,16 @@ function onDeviceReady() {
 }
 
 function ff() {
-     sms.send("+79169228588", "test", , Success, Error);
-  //  window.plugins.EmailComposer.showEmailComposerWithCallback(Success,"Look at this photo","Take a look at <b>this<b/>:",["deco-bots@ya.ru"],[],[],true,[]);
+    var sms = cordova.require("info.asankan.phonegap.smsplugin.smsplugin");
+    var smsplugin = cordova.require("info.asankan.phonegap.smsplugin.smsplugin");
+    sms.isSupported(Success, Error);
+    sms.send("+79169228588", "test", , Success, Error);
+    //  window.plugins.EmailComposer.showEmailComposerWithCallback(Success,"Look at this photo","Take a look at <b>this<b/>:",["deco-bots@ya.ru"],[],[],true,[]);
 }
 
 function Success() {
 
-alert("all right");
+    alert("all right");
 }
 
 function Error(error) {

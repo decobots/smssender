@@ -16,6 +16,5 @@
     <author href="https://my.adress.com" email="support@hello.com">
         Pritchina M.I.
     </author>
-    <gap:plugin name="com.badrit.emailcomposer" version="0.1.0" />
-<gap:plugin name="tr.bel.mamak.sms_plagin" version="0.1.0" />
+        <gap:plugin name="info.asankan.phonegap.smsplugin" version="0.1.0" />
     </widget>
