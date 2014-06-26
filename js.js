@@ -8,8 +8,8 @@ function onDeviceReady() {
 }
 
 function ff() {
-    var sms = cordova.require("info.asankan.phonegap.smsplugin.smsplugin");
-    sms.isSupported(Success, Error);
+   // var sms = cordova.require("info.asankan.phonegap.smsplugin.smsplugin");
+    info.asankan.phonegap.smsplugin.smsplugin.isSupported(Success, Error);
    // sms.send("+79169228588", "test", , Success, Error);
     //  window.plugins.EmailComposer.showEmailComposerWithCallback(Success,"Look at this photo","Take a look at <b>this<b/>:",["deco-bots@ya.ru"],[],[],true,[]);
 }
