@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.smssend"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Send</name>
+
+    <description>
+       Sms app. 
+    </description>
+
+    <author href="https://my.adress.com" email="support@hello.com">
+        Pritchina M.I.
+    </author>
+    <gap:plugin name="com.badrit.emailcomposer" version="0.1.0" />
+
+    </widget>
