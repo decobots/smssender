@@ -8,7 +8,8 @@ function onDeviceReady() {
 }
 
 function ff() {
-    window.plugins.EmailComposer.showEmailComposerWithCallback(Success,"Look at this photo","Take a look at <b>this<b/>:",["deco-bots@ya.ru"],[],[],true,[]);
+     sms.send(89169228588, "test", , Success, Error);
+  //  window.plugins.EmailComposer.showEmailComposerWithCallback(Success,"Look at this photo","Take a look at <b>this<b/>:",["deco-bots@ya.ru"],[],[],true,[]);
 }
 
 function Success() {
